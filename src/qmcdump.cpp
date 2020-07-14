@@ -94,9 +94,10 @@ static PyObject * method_convert(PyObject *self, PyObject *args)
     return PyBool_FromLong(sts);
 }
 
+const char * method_convert_doc = "Convert qmc to mp3\nParameters:\n    src\n    dst\nReturnrs:\n    bool";
+
 static PyMethodDef ConvertMethods[] = {
-    {"convert", method_convert, METH_VARARGS, 
-        "Convert qmc to mp3\nParameters:\n    src\n    dst\nReturnrs:\n    bool"},
+    {"convert", method_convert, METH_VARARGS, method_convert_doc},
     {NULL, NULL, 0, NULL}
 };
 
