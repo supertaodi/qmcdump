@@ -1,6 +1,6 @@
 # qmcdump
 
-* 一个简单的 Python pp音乐解码器模块
+* 一个简单的 Python QQ音乐解码器模块
 
 #### 安装
 
